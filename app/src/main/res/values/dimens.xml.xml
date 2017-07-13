@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font40_720">20.0dip</dimen>
+    <color name="background_ffffff">#ffffffff</color>
+    <dimen name="bottom_bar_height">50.0dip</dimen>
+    <dimen name="speech_bar_height">72.0dip</dimen>
+</resources>

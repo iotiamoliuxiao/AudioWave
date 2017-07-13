@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <include
+            android:id="@+id/title_bar"
+            layout="@layout/translate_titlebar" />
+
+        <TextView
+            android:id="@+id/translate_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/title_bar"
+            android:textColor="@color/text_cdcdcd"
+            android:textSize="32sp"
+            android:padding="15dp"/>
+<!--
+        <TextView
+            android:id="@+id/record_volume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_bar"
+            android:text="toColor"/>
+-->
+        <FrameLayout
+            android:id="@+id/voiceBar"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/speech_bar_height"
+            android:layout_marginLeft="25.0dip"
+            android:layout_marginRight="25.0dip"
+            android:layout_marginBottom="77.0dip"
+            android:layout_alignParentBottom="true">
+
+            <com.voiceofhand.meetinginterpreter.view.voice.VoiceLineView
+                android:orientation="horizontal"
+                android:id="@+id/wave_speech"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <ImageView
+                android:id="@+id/iv_speech_search_mik"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/voice_bt_mic" />
+
+            <TextView
+                android:id="@+id/voiceTv"
+                android:textSize="16.0sp"
+                android:textColor="@color/voice_tv"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="完成" />
+        </FrameLayout>
+
+    </RelativeLayout>
+</FrameLayout>

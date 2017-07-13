@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text_666666">#ff666666</color>
+    <color name="text_cdcdcd">#ffcdcdcd</color>
+    <color name="voice_tv">#fff96c62</color>
+
+    <color name="voice_green">#ff0c7c3e</color>
+</resources>

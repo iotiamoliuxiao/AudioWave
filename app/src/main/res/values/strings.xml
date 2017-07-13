@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MeetingInterpreter</string>
+
+    <string name="title_ch">中文</string>
+
+    <string name="translate_title">听说无忧</string>
+</resources>
